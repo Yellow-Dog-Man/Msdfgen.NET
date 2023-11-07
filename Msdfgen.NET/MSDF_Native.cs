@@ -33,7 +33,7 @@ namespace Msdfgen.NET
 
         [DllImport(LIBRARY_NAME)]
         public static extern void shape_generateMSDF(IntPtr pixels, int width, int height,
-            IntPtr shape, 
+            IntPtr shape,
             double range, double scaleX, double scaleY, double offsetX, double offsetY,
             double edgeThreshold);
     }
