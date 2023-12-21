@@ -1,5 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <!-- NUGET META DATA -->
+  <PropertyGroup>
+    <Company>Yellow Dog Man Studios</Company>
+    <Authors>Yellow Dog Man Studios</Authors>
+    <PackageId>YellowDogMan.Msdfgen.NET</PackageId>
+    <Description>.NET wrapper for custom fork of the msdfgen library using P/Invoke</Description>
+    <Copyright>Copyright (c) Yellow Dog Man Studios s.r.o. 2023</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Yellow-Dog-Man/Msdfgen.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectURL>https://github.com/Yellow-Dog-Man/Msdfgen.NET</PackageProjectURL>
+  </PropertyGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
