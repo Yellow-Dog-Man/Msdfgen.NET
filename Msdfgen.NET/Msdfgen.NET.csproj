@@ -14,5 +14,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bins\win-x64\msdfgen.dll" PackagePath="runtimes\win-x64\native" />
+    <Content Include="bins\linux-arm64\libmsdfgen.so" PackagePath="runtimes\linux-arm64\native" />
+    <Content Include="bins\linux-x64\libmsdfgen.so" PackagePath="runtimes\linux-x64\native" />
+  </ItemGroup>
 
 </Project>
